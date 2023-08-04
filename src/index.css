@@ -113,3 +113,12 @@ code {
 .playerDiv{
   display: none;
 }
+
+#audio-player{
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  justify-self: center;
+}
