@@ -11,3 +11,105 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.headBar{
+  background-color: hotpink;
+  height: 4rem;
+  width: 100%;
+}
+
+.menu{
+  border-radius: 50px;
+  height: 85%;
+  background: transparent;
+  margin:0.3rem;
+}
+.menuButton{
+  border-radius: 50px;
+  height: 85%;
+  background: transparent;
+  margin:0.3rem;
+  border:none;
+}
+
+.menu:hover{
+  opacity:0.85;
+  background-color:rgb(205, 199, 199) ;
+}
+
+#sideBar{
+  /* display :none; */
+  border-radius: 10px;
+  height: calc(100vh - 8rem); 
+  width: 0; 
+  position: relative; 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+  
+
+}
+
+.sideitem{
+  padding: 1rem;
+  font-size: 15px;
+}
+
+#search{
+  
+  border-radius: 20px;
+  width:70%;
+  height: 2rem;
+  justify-content: center;
+}
+.mainDiv{
+  
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-items: center;
+  
+}
+.searchSpan{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.mainText{
+  text-align: center;
+  margin: 0.1rem;
+}
+.searchButton{
+  border-radius: 100px;
+  background: transparent;
+  border:none;
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1rem;
+  /* margin-top: 0.5rem; */
+  
+}
+.searchButton:hover{
+  opacity: 0.6;
+}
+
+.clear{
+  border-radius: 100px;
+  background: transparent;
+  border:none;
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1.5rem;
+  
+}
+.clear:hover{
+  opacity: 0.6;
+}
+
+.playerDiv{
+  display: none;
+}
