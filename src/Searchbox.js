@@ -2,26 +2,7 @@ import Player from "./Player";
 import { useState } from "react";
 
 
-// var google = require('googleapis');
-// var youtube = google.youtube({
-//    version: 'v3',
-//    auth: "AIzaSyD1OmrouQqhA7MiWTSDnVygYfu7CYAlFrE"
-// });
 
-// let call = () =>{
-//     youtube.search.list({
-//         part: 'snippet',
-//         q: 'your search query'
-//       }, function (err, data) {
-//         if (err) {
-//           console.error('Error: ' + err);
-//         }
-//         if (data) {
-//           console.log(data)
-//         }
-//       });
-    
-// } 
 const SearchBox = () => {
     const [vis,setVis] = useState(null);
     const [link,setLink] = useState("");
