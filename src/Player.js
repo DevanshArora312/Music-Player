@@ -15,7 +15,7 @@ const Player = ({link}) => {
                     vprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgTnOz3IJb_kQGmOUyN7O-CD_Wj9dkHbHwMNvLMimQqt8CIQDkk1KK6SnTJsD5Q7P16zfv8NNxgm5W
                     ngeJrFixEHtAJw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgf1n5iriGnVMTY2oM_S1qLuyF1IAK--PrdDE
                     S6ssE0MkCIH1D_Kc8PwiIbn2PzbzJ_SDc-hau1ghq4oUIGES9BBNQ */}
-                    <audio controls autoPlay loop><source src= "#" id="audio-player"></source>
+                    <audio controls autoPlay loop><source src= {link} id="audio-player"></source>
 
                     </audio>
                 </div>
