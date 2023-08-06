@@ -1,8 +1,16 @@
+import {Link} from "react-router-dom";
+
 const Sidebar = () => {
     return ( 
         <div id="sideBar">
             <div className="sideitem">
-                Login
+                <Link to ="/" style={{textDecoration:"none",color:"black"}}>Home</Link>
+            </div>
+            <hr style={{
+                width:"100%"
+            }}/>
+            <div className="sideitem">
+                <Link to="/login" style={{textDecoration:"none"}}>Login </Link>
             </div>
             <hr style={{
                 width:"100%"
