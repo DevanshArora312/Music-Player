@@ -16,7 +16,7 @@ const Sidebar = () => {
                 width:"100%"
             }}/>
             <div className="sideitem">
-                Sign-Up
+                <Link to = "/signup" style={{textDecoration:"none"}}>Sign-Up</Link>
             </div>
             <hr style={{
                 width:"100%"
