@@ -1,3 +1,5 @@
+# This Version is now scrapped and will not be updated anymore . Switched to Vite for further updates
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
